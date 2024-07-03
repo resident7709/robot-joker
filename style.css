@@ -1,17 +1,17 @@
 /* ROBOT.GIF from Giphy - https://giphy.com/gifs/robot-cinema-4d-eyedesyn-3o7abtn7DuREEpsyWY */
 
-@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
 
 html {
   box-sizing: border-box;
 }
 body {
-  font-family: "Syne Mono", monospace;
+  font-family: 'Syne Mono', monospace;
   background-color: #45badd;
   margin: 0;
 }
 .container {
-  background: url("./robot.gif");
+  background: url('./robot.gif');
   background-size: contain;
   background-position: left center;
   background-repeat: no-repeat;
@@ -45,8 +45,7 @@ button:disabled {
   cursor: default;
   filter: brightness(30%);
 }
-
-/* *Media */
+/* * Media */
 @media screen and (max-width: 992px) {
   .container {
     background-position: center center;
